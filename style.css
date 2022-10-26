@@ -1,0 +1,56 @@
+body{
+ margin:0 ;
+ padding-top: 800px;
+ text-align: center;
+ 
+}
+.sete{
+  border-radius: 50%;
+}
+#um{
+   position: absolute;
+   bottom: 0;
+   display: table;
+   width: 100%;
+   height:100% ;
+   background: linear-gradient(rgb(251, 255, 19) 0%,rgba(11, 197, 151, 0.418) 100%);
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+#biografic{
+   padding:50px;
+  font-family: cursive;
+} 
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin:8px auto;
+}
+.menu{
+    position: fixed;
+    margin-top: 0px;
+    top:0;
+    z-index:10; 
+    right:30px ;
+    cursor: pointer;
+    list-style:none ;
+}
+.link{
+    float: left;
+    padding-top:5px ;
+    padding-left:9px ;
+    padding-right:9px ;
+    padding-bottom:5px ;
+    font-family:fantasy ;
+    font-size:20px ;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.contatosdosite h3{
+    display: inline;
+}
